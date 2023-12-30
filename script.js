@@ -410,9 +410,3 @@ btnSort.addEventListener('click', function (e) {
   displayMovements(currentUser, !sorted);
   sorted = !sorted;
 });
-
-const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const arr = [];
-nums.forEach(i => !arr.includes(i) && arr.push(i));
-console.log(arr);
-console.log(arr.sort((a, b) => a - b)[arr.length - 2]);
