@@ -82,42 +82,7 @@ const account4 = {
   locale: 'en-US',
 };
 
-const account5 = {
-  owner: 'Shreyas Damgude',
-  movements: [-300, -3000, 4000, 100, 200, 1000],
-  interestRate: 1.8,
-  pin: 1001,
-
-  movementsDates: [
-    '2022-12-25T06:04:23.907Z',
-    '2023-01-25T14:18:46.235Z',
-    '2023-02-05T16:33:06.386Z',
-    '2023-04-10T14:43:26.374Z',
-    '2023-06-25T18:49:59.371Z',
-    '2023-07-26T12:01:20.894Z',
-  ],
-  currency: 'USD',
-  locale: 'en-US',
-};
-
-const account6 = {
-  owner: 'Sreeja Ronanki',
-  movements: [1000, 800, 12, -200, 200],
-  interestRate: 2.5,
-  pin: 1812,
-
-  movementsDates: [
-    '2023-01-25T14:18:46.235Z',
-    '2023-02-05T16:33:06.386Z',
-    '2023-04-10T14:43:26.374Z',
-    '2023-06-25T18:49:59.371Z',
-    '2023-07-26T12:01:20.894Z',
-  ],
-  currency: 'USD',
-  locale: 'en-US',
-};
-
-const accounts = [account1, account2, account3, account4, account5, account6];
+const accounts = [account1, account2, account3, account4];
 
 // // Elements
 const labelWelcome = document.querySelector('.welcome');
